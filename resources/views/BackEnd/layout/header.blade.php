@@ -15,42 +15,34 @@
 
 
     <!-- Table datatable css -->
-    <link href="BackEnd/assets/libs/datatables/dataTables.bootstrap4.min.css" rel="stylesheet"
-        type="text/css" />
+    <link href="BackEnd/assets/libs/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
-    <link href="BackEnd/assets/libs/datatables/buttons.bootstrap4.min.css" rel="stylesheet"
-        type="text/css" />
-    <link href="BackEnd/assets/libs/datatables/responsive.bootstrap4.min.css" rel="stylesheet"
-        type="text/css" />
-    <link href="BackEnd/assets/libs/datatables/select.bootstrap4.min.css" rel="stylesheet"
-        type="text/css" />
+    <link href="BackEnd/assets/libs/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="BackEnd/assets/libs/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="BackEnd/assets/libs/datatables/select.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
 
     <!-- Sweet Alert-->
-    <link href="BackEnd/assets/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet"
-        type="text/css" />
+    <link href="BackEnd/assets/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Custom box css -->
     <link href="BackEnd/assets/libs/custombox/custombox.min.css" rel="stylesheet">
 
-    <link href="BackEnd/assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.css"
-        rel="stylesheet" type="text/css" />
+    <link href="BackEnd/assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.css" rel="stylesheet"
+        type="text/css" />
 
     <link href="BackEnd/assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet" />
     <link href="BackEnd/assets/libs/switchery/switchery.min.css" rel="stylesheet" type="text/css" />
-    <link href="BackEnd/assets/libs/multiselect/multi-select.css" rel="stylesheet"
-        type="text/css" />
+    <link href="BackEnd/assets/libs/multiselect/multi-select.css" rel="stylesheet" type="text/css" />
     <link href="BackEnd/assets/libs/select2/select2.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Plugins css -->
     <link href="BackEnd/assets/libs/dropify/dropify.min.css" rel="stylesheet" type="text/css" />
 
     <!-- App css -->
-    <link href="BackEnd/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"
-        id="bootstrap-stylesheet" />
+    <link href="BackEnd/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
     <link href="BackEnd/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="BackEnd/assets/css/app.min.css" rel="stylesheet" type="text/css"
-        id="app-stylesheet" />
+    <link href="BackEnd/assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-stylesheet" />
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.min.css" />
@@ -66,15 +58,14 @@
         /*    display: none;*/
         /*}*/
 
-        .navbar-custom{
+        .navbar-custom {
             position: fixed !important;
         }
 
-        .left-side-menu{
+        .left-side-menu {
             height: 100vh !important;
             position: fixed !important;
         }
-
     </style>
 </head>
 
@@ -92,7 +83,8 @@
                         href="#" role="button" aria-haspopup="false" aria-expanded="false">
                         <img src="{{ url('/') }}/public/BackEnd/uploads/master/logo/logo.png" alt="user-image"
                             class="rounded-circle">
-                        <span class="d-none d-sm-inline-block ml-1 font-weight-medium">Pragativad Bal Vikash Yojana</span>
+                        <span class="d-none d-sm-inline-block ml-1 font-weight-medium">Pragativad Bal Vikash
+                            Yojana</span>
                         <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
@@ -127,27 +119,23 @@
             <div class="logo-box">
                 <a href="{{ url('/') }}" class="logo text-center logo-dark">
                     <span class="logo-lg">
-                        <img src="BackEnd/uploads/master/logo/logo.png" alt=""
-                            width="90%">
+                        <img src="BackEnd/uploads/master/logo/logo.png" alt="" width="90%">
                         <!-- <span class="logo-lg-text-dark">Uplon</span> -->
                     </span>
                     <span class="logo-sm">
                         <!-- <span class="logo-lg-text-dark">U</span> -->
-                        <img src="BackEnd/uploads/master/logo/logo.png" alt=""
-                            width="90%">
+                        <img src="BackEnd/uploads/master/logo/logo.png" alt="" width="90%">
                     </span>
                 </a>
 
                 <a href="{{ url('/') }}" class="logo text-center logo-light">
                     <span class="logo-lg">
-                        <img src="BackEnd/uploads/master/logo/logo.png" alt=""
-                            width="90%">
+                        <img src="BackEnd/uploads/master/logo/logo.png" alt="" width="90%">
                         <!-- <span class="logo-lg-text-dark">Uplon</span> -->
                     </span>
                     <span class="logo-sm">
                         <!-- <span class="logo-lg-text-dark">U</span> -->
-                        <img src="BackEnd/uploads/master/logo/logo.png" alt=""
-                            width="90%">
+                        <img src="BackEnd/uploads/master/logo/logo.png" alt="" width="90%">
                     </span>
                 </a>
             </div>
@@ -183,17 +171,17 @@
                         </li>
 
                         {{-- <li>
-                                <a href="#">
-                                    <i class="mdi mdi-settings-outline"></i>
-                                    <span> Settings </span>
-                                </a>
-                            </li>
+                            <a href="#">
+                                <i class="mdi mdi-settings-outline"></i>
+                                <span> Settings </span>
+                            </a>
+                        </li>
                         <li>
-                                <a href="{{ route('admin_customer') }}">
-                                    <i class="mdi mdi-account-circle-outline"></i>
-                                    <span> Customer </span>
-                                </a>
-                            </li>--}}
+                            <a href="{{ route('admin_customer') }}">
+                                <i class="mdi mdi-account-circle-outline"></i>
+                                <span> Customer </span>
+                            </a>
+                        </li>--}}
                         <li>
                             <a href="javascript: void(0);">
                                 <i class="mdi mdi-folder-multiple-image"></i>
@@ -201,9 +189,11 @@
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="{{ route("admin_add_slider") }}"><i class="mdi mdi-arrow-right"></i> Add Slider</a>
+                                <li><a href="{{ route("admin_add_slider") }}"><i class="mdi mdi-arrow-right"></i> Add
+                                        Slider</a>
                                 </li>
-                                <li><a href="{{ route("admin_show_slider") }}"><i class="mdi mdi-arrow-right"></i> Slider List</a></li>
+                                <li><a href="{{ route("admin_show_slider") }}"><i class="mdi mdi-arrow-right"></i>
+                                        Slider List</a></li>
                             </ul>
                         </li>
 
@@ -216,22 +206,25 @@
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li><a href="{{ route("admin_add_gallery") }}"><i class="mdi mdi-arrow-right"></i> Add
                                         Gallery</a></li>
-                                <li><a href="{{ route("admin_show_gallery") }}"><i class="mdi mdi-arrow-right"></i> Gallery List</a></li>
+                                <li><a href="{{ route("admin_show_gallery") }}"><i class="mdi mdi-arrow-right"></i>
+                                        Gallery List</a></li>
                             </ul>
                         </li>
-                       <li>
+                        <li>
                             <a href="javascript: void(0);">
                                 <i class="mdi mdi-star"></i>
                                 <span> Our Program </span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="{{ route('admin_program') }}"><i class="mdi mdi-arrow-right"></i> Add Program</a></li>
-                                <li><a href="{{ route("admin_show_program") }}"><i class="mdi mdi-arrow-right"></i> Program List</a>
+                                <li><a href="{{ route('admin_program') }}"><i class="mdi mdi-arrow-right"></i> Add
+                                        Program</a></li>
+                                <li><a href="{{ route("admin_show_program") }}"><i class="mdi mdi-arrow-right"></i>
+                                        Program List</a>
                                 </li>
                             </ul>
                         </li>
-                        
+
                         <li>
                             <a href="javascript: void(0);">
                                 <i class="mdi mdi-star"></i>
@@ -239,12 +232,26 @@
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="{{ route('create_question') }}"><i class="mdi mdi-arrow-right"></i> Create Questions</a></li>
-                                <li><a href="{{ route('list_question') }}"><i class="mdi mdi-arrow-right"></i> Questions List</a>
+                                <li><a href="{{ route('create_question') }}"><i class="mdi mdi-arrow-right"></i> Create
+                                        Questions</a></li>
+                                <li><a href="{{ route('list_question') }}"><i class="mdi mdi-arrow-right"></i> Questions
+                                        List</a>
                                 </li>
                             </ul>
                         </li>
-                        
+
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="mdi mdi-star"></i>
+                                <span>Renewal</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="{{ route('admin_renewal') }}"><i class="mdi mdi-arrow-right"></i>Renewal
+                                        List</a></li>
+                            </ul>
+                        </li>
+
                         <li>
                             <a href="javascript: void(0);">
                                 <i class="mdi mdi-star"></i>
@@ -253,7 +260,8 @@
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <!-- <li><a href="{{ route('create_question') }}"><i class="mdi mdi-arrow-right"></i> Create Questions</a></li> -->
-                                <li><a href="{{ route('class_list') }}"><i class="mdi mdi-arrow-right"></i> Class List</a>
+                                <li><a href="{{ route('class_list') }}"><i class="mdi mdi-arrow-right"></i> Class
+                                        List</a>
                                 </li>
                             </ul>
                         </li>
@@ -265,140 +273,156 @@
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <!-- <li><a href="{{ route('create_question') }}"><i class="mdi mdi-arrow-right"></i> Create Questions</a></li> -->
-                                <li><a href="{{ route('users.exam.results') }}"><i class="mdi mdi-arrow-right"></i> Users Exam List</a>
+                                <li><a href="{{ route('users.exam.results') }}"><i class="mdi mdi-arrow-right"></i>
+                                        Users Exam List</a>
                                 </li>
                             </ul>
                         </li>
-                        
-                         <li>
+
+                        <li>
                             <a href="javascript: void(0);">
                                 <i class="mdi mdi-star"></i>
                                 <span> Users Registration list </span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="{{ route('registrationlist') }}"><i class="mdi mdi-arrow-right"></i> Users Registation list</a></li>
+                                <li><a href="{{ route('registrationlist') }}"><i class="mdi mdi-arrow-right"></i> Users
+                                        Registation list</a></li>
                                 <!--<li><a href="{{ route('list_question') }}"><i class="mdi mdi-arrow-right"></i> Questions List</a>-->
-                                </li>
-                            </ul>
                         </li>
-                        {{-- <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-star"></i>
-                                    <span> Projects </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="{{ route("admin_add_project") }}"><i class="mdi mdi-arrow-right"></i> Add Projects</a></li>
-                                    <li><a href="#"><i class="mdi mdi-arrow-right"></i> Projects List</a></li>
-                                </ul>
-                            </li>--}}
-                        <li>
-                            <a href="javascript: void(0);">
-                                <i class="mdi mdi-account-tie"></i>
-                                <span> Our Team </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="{{ route('admin_add_team_member') }}"><i class="mdi mdi-arrow-right"></i> Add Team
-                                        Member</a></li>
-                                <li><a href="{{ route("admin_show_team_member") }}"><i class="mdi mdi-arrow-right"></i> Team Member
-                                        List</a></li>
-                            </ul>
-                        </li>
-                        {{-- <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-account-tie"></i>
-                                    <span> Vendor </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="{{ route("admin_add_vendor") }}"><i class="mdi mdi-arrow-right"></i> Add Vendor</a></li>
-                                    <li><a href="{{ route("admin_show_vendor") }}"><i class="mdi mdi-arrow-right"></i> Vendor List</a></li>
-                                </ul>
+                    </ul>
+                    </li>
+                    {{-- <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-star"></i>
+                            <span> Projects </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route(" admin_add_project") }}"><i class="mdi mdi-arrow-right"></i> Add
+                                    Projects</a></li>
+                            <li><a href="#"><i class="mdi mdi-arrow-right"></i> Projects List</a></li>
+                        </ul>
+                    </li>--}}
+                    <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-account-tie"></i>
+                            <span> Our Team </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route('admin_add_team_member') }}"><i class="mdi mdi-arrow-right"></i> Add
+                                    Team
+                                    Member</a></li>
+                            <li><a href="{{ route("admin_show_team_member") }}"><i class="mdi mdi-arrow-right"></i> Team
+                                    Member
+                                    List</a></li>
+                        </ul>
+                    </li>
+                    {{-- <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-account-tie"></i>
+                            <span> Vendor </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route(" admin_add_vendor") }}"><i class="mdi mdi-arrow-right"></i> Add
+                                    Vendor</a></li>
+                            <li><a href="{{ route(" admin_show_vendor") }}"><i class="mdi mdi-arrow-right"></i> Vendor
+                                    List</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-account-plus"></i>
+                            <span> Current Openings </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="#"><i class="mdi mdi-arrow-right"></i> Add Current Openings</a></li>
+                            <li><a href="#"><i class="mdi mdi-arrow-right"></i> Current Openings List</a></li>
+                        </ul>
+                    </li> --}}
+                    <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-account-plus"></i>
+                            <span> Download </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route("admin_download") }}"><i class="mdi mdi-arrow-right"></i> Add
+                                    Download</a></li>
+                            <li><a href="{{ route('admin_show_download') }}"><i class="mdi mdi-arrow-right"></i> Current
+                                    Download</a>
                             </li>
-
-                        <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-account-plus"></i>
-                                    <span> Current Openings </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="#"><i class="mdi mdi-arrow-right"></i> Add Current Openings</a></li>
-                                    <li><a href="#"><i class="mdi mdi-arrow-right"></i> Current Openings List</a></li>
-                                </ul>
-                            </li> --}}
-                        <li>
-                            <a href="javascript: void(0);">
-                                <i class="mdi mdi-account-plus"></i>
-                                <span> Download </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="{{ route("admin_download") }}"><i class="mdi mdi-arrow-right"></i> Add
-                                        Download</a></li>
-                                <li><a href="{{ route('admin_show_download') }}"><i class="mdi mdi-arrow-right"></i> Current Download</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript: void(0);">
-                                <i class="mdi mdi-account-plus"></i>
-                                <span> Branch </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="{{ route("admin_add_branch") }}"><i class="mdi mdi-arrow-right"></i> Add Branch</a>
-                                </li>
-                                <li><a href="{{ route("admin_show_branch") }}"><i class="mdi mdi-arrow-right"></i> Branch Details</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript: void(0);">
-                                <i class="mdi mdi-account-plus"></i>
-                                <span> Requirement </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="{{ route("admin_add_requirement") }}"><i class="mdi mdi-arrow-right"></i> Add
-                                        Requirement</a></li>
-                                <li><a href="{{ route("admin_show_requirement") }}"><i class="mdi mdi-arrow-right"></i> Requirement
-                                        Details</a></li>
-                            </ul>
-                        </li>
-                        {{-- <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-help-circle-outline"></i>
-                                    <span> Faq </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="{{ route("admin_add_faq") }}"><i class="mdi mdi-arrow-right"></i> Add Faq</a></li>
-                                    <li><a href="{{ route("admin_show_faq") }}"><i class="mdi mdi-arrow-right"></i> Faq List</a></li>
-                                </ul>
-                            </li> --}}
-                        <li>
-                            <a href="javascript: void(0);">
-                                <i class="mdi mdi-newspaper"></i>
-                                <span> News </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <ul class="nav-second-level" aria-expanded="false">
-                                <li><a href="{{ route('admin_add_news') }}"><i class="mdi mdi-arrow-right"></i> Add News</a></li>
-                                <li><a href="{{ route("admin_show_news") }}"><i class="mdi mdi-arrow-right"></i> News List</a></li>
-                            </ul>
-                        </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-account-plus"></i>
+                            <span> Branch </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route("admin_add_branch") }}"><i class="mdi mdi-arrow-right"></i> Add
+                                    Branch</a>
+                            </li>
+                            <li><a href="{{ route("admin_show_branch") }}"><i class="mdi mdi-arrow-right"></i> Branch
+                                    Details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-account-plus"></i>
+                            <span> Requirement </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route("admin_add_requirement") }}"><i class="mdi mdi-arrow-right"></i> Add
+                                    Requirement</a></li>
+                            <li><a href="{{ route("admin_show_requirement") }}"><i class="mdi mdi-arrow-right"></i>
+                                    Requirement
+                                    Details</a></li>
+                        </ul>
+                    </li>
+                    {{-- <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-help-circle-outline"></i>
+                            <span> Faq </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route(" admin_add_faq") }}"><i class="mdi mdi-arrow-right"></i> Add Faq</a>
+                            </li>
+                            <li><a href="{{ route(" admin_show_faq") }}"><i class="mdi mdi-arrow-right"></i> Faq
+                                    List</a></li>
+                        </ul>
+                    </li> --}}
+                    <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-newspaper"></i>
+                            <span> News </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route('admin_add_news') }}"><i class="mdi mdi-arrow-right"></i> Add News</a>
+                            </li>
+                            <li><a href="{{ route("admin_show_news") }}"><i class="mdi mdi-arrow-right"></i> News
+                                    List</a></li>
+                        </ul>
+                    </li>
 
 
-                           <li>
-                            <a href="{{ route("admin_donation") }}">
-                                <i class="fa-solid fa-hand-holding-heart"></i>
-                                <span> Donation List </span>
-                            </a>
-                        </li>
-                      {{--  <!--<li>
+                    <li>
+                        <a href="{{ route("admin_donation") }}">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                            <span> Donation List </span>
+                        </a>
+                    </li>
+                    {{--
+                    <!--<li>
                                 <a href="javascript: void(0);">
                                     <i class="mdi mdi-file-outline"></i>
                                     <span> Dynamic Page </span>
@@ -406,87 +430,92 @@
                                 </a>
                                 <ul class="nav-second-level" aria-expanded="false">
                                     <li><a href="master/dynamic/about"><i class="mdi mdi-arrow-right"></i> About Us</a></li>-->
-                        <!--<li><a href="master/dynamic/faq"><i class="mdi mdi-arrow-right"></i> Faq</a></li>-->
-                        <!--<li><a href="master/dynamic/contact"><i class="mdi mdi-arrow-right"></i> Contact Us</a></li>-->
-                        <!--<li><a href="master/dynamic/terms_conditions"><i class="mdi mdi-arrow-right"></i> Terms & Conditions</a></li>
+                    <!--<li><a href="master/dynamic/faq"><i class="mdi mdi-arrow-right"></i> Faq</a></li>-->
+                    <!--<li><a href="master/dynamic/contact"><i class="mdi mdi-arrow-right"></i> Contact Us</a></li>-->
+                    <!--<li><a href="master/dynamic/terms_conditions"><i class="mdi mdi-arrow-right"></i> Terms & Conditions</a></li>
                                     <!--<li><a href="master/dynamic/privacy_policy"><i class="mdi mdi-arrow-right"></i> Privacy Policy</a></li>-->
-                        <!-- </ul>
+                    <!-- </ul>
                             </li>-->
 
-                        <!--<li>
+                    <!--<li>
                                 <a href="master/career">
                                     <i class="mdi mdi-help-circle"></i>
                                     <span> Career Enquiry </span>
                                 </a>
                             </li>-->
 
-                        <!--<li>
+                    <!--<li>
                                 <a href="master/feedback">
                                     <i class="mdi mdi-help-circle"></i>
                                     <span> Feedback </span>
                                 </a>
                             </li>--> --}}
 
-                        {{-- <li>
-                                <a href="{{ route("admin_subscription_enquiry") }}">
-                                    <i class="mdi mdi-help-circle"></i>
-                                    <span> Subscription Enquiry </span>
-                                </a>
-                            </li>
-                        <li>
-                                <a href="{{ route("admin_contact_enquiry") }}">
-                                    <i class="mdi mdi-help-circle"></i>
-                                    <span> Contact Enquiry </span>
-                                </a>
-                            </li> --}}
-                        <li>
-                            <a href="{{ route("admin_employee") }}">
-                                <i class="mdi mdi-help-circle"></i>
-                                <span> Employee List </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ route("admin_pragatiwad") }}">
-                                <i class="mdi mdi-help-circle"></i>
-                                <span> Pragativad </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ route("admin_volunteer") }}">
-                                <i class="mdi mdi-account"></i>
-                                <span> Old Volunteer </span>
-                            </a>
-                        </li>
+                    {{-- <li>
+                        <a href="{{ route(" admin_subscription_enquiry") }}">
+                            <i class="mdi mdi-help-circle"></i>
+                            <span> Subscription Enquiry </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route(" admin_contact_enquiry") }}">
+                            <i class="mdi mdi-help-circle"></i>
+                            <span> Contact Enquiry </span>
+                        </a>
+                    </li> --}}
+                    <li>
+                        <a href="{{ route("admin_employee") }}">
+                            <i class="mdi mdi-help-circle"></i>
+                            <span> Employee List </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route("admin_pragatiwad") }}">
+                            <i class="mdi mdi-help-circle"></i>
+                            <span> Pragativad </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route("admin_volunteer") }}">
+                            <i class="mdi mdi-account"></i>
+                            <span> Old Volunteer </span>
+                        </a>
+                    </li>
 
-                         {{-- <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-paypal"></i>
-                                    <span> Donation </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="{{ route("admin_donation") }}"><i class="mdi mdi-arrow-right"></i> Online Donation List</a></li>
-                                <li><a href="{{ route('admin_add_menual_donation') }}"><i class="mdi mdi-arrow-right"></i> Manual Donation</a></li>
-                                <li><a href="{{ route("admin_show_menual_donation") }}"><i class="mdi mdi-arrow-right"></i> Manual Donation List</a></li>
-                                 </ul>
-                            </li> --}}
-                         {{-- <li>
-                                <a href="javascript: void(0);">
-                                    <i class="mdi mdi-account-tie"></i>
-                                    <span> Staff </span>
-                                    <span class="menu-arrow"></span>
-                                </a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="{{ route("admin_add_staff") }}"><i class="mdi mdi-arrow-right"></i> Add Staff</a></li>
-                                    <li><a href="{{route("admin_show_staff")}}"><i class="mdi mdi-arrow-right"></i> Staff List</a></li>
-                                </ul>
-                            </li> --}}
-                        <li>
-                            <a href="master/db_backup">
-                                <i class="mdi mdi-database"></i>
-                                <span> Backup Database </span>
-                            </a>
-                        </li>
+                    {{-- <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-paypal"></i>
+                            <span> Donation </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route(" admin_donation") }}"><i class="mdi mdi-arrow-right"></i> Online
+                                    Donation List</a></li>
+                            <li><a href="{{ route('admin_add_menual_donation') }}"><i class="mdi mdi-arrow-right"></i>
+                                    Manual Donation</a></li>
+                            <li><a href="{{ route(" admin_show_menual_donation") }}"><i class="mdi mdi-arrow-right"></i>
+                                    Manual Donation List</a></li>
+                        </ul>
+                    </li> --}}
+                    {{-- <li>
+                        <a href="javascript: void(0);">
+                            <i class="mdi mdi-account-tie"></i>
+                            <span> Staff </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li><a href="{{ route(" admin_add_staff") }}"><i class="mdi mdi-arrow-right"></i> Add
+                                    Staff</a></li>
+                            <li><a href="{{route(" admin_show_staff")}}"><i class="mdi mdi-arrow-right"></i> Staff
+                                    List</a></li>
+                        </ul>
+                    </li> --}}
+                    <li>
+                        <a href="master/db_backup">
+                            <i class="mdi mdi-database"></i>
+                            <span> Backup Database </span>
+                        </a>
+                    </li>
                     </ul>
 
                 </div>
