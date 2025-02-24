@@ -1,0 +1,19 @@
+<head>
+    <script type="application/x-javascript" src="src/bridgeit.js"></script>
+</head>
+
+<a id='scanBtn' type="button" 
+   onclick="bridgeit.scan('scanBtn', 'onAfterCaptureScan');">Scan a Code</a>
+   <div id="scans"></div>
+   
+<script type="text/javascript">
+function onAfterCaptureScan(event)  {
+    var text = event.value;
+    var scans = document.getElementById("scans");
+    var row1 = document.createElement('textarea');
+    row1.setAttribute('class','row');
+    row1.value = text;
+    scans.insertBefore(row1, scans.firstChild);
+}
+
+</script>

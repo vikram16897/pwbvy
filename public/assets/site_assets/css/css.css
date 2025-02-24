@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+
+
+.pt-28px {
+    padding-top: 28px !important;
+}
+
+.main-header .info-box{
+    padding: 0px 0px 0px 60px !important;
+}
+
+.logo-mnew{
+    max-width: 250px;
+    padding: 10px 0;
+}
+.main-slider .tp-dottedoverlay {
+    display: none !important;
+}
+
+.news-title {
+    color: white;
+    margin: 0px 15px;
+    padding: 0;
+    border-bottom: 1px solid var(--theme-color);
+}
+
+.bg-white {
+    background: white;
+}
+.bg-theme-color {
+    background:var(--theme-color);
+}
+
+.news-container{
+    min-height: 350px;
+}
